@@ -7,7 +7,9 @@ public class PlayerAnimationController : MonoBehaviour
     [SerializeField]
     public AnimationCurve animationCurve;
     Animation animations;
-    float curveTime = 10f;
+    float curveTime = 4f;
+     public float playerSpeed = 6f;
+    public Vector3 currentPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +21,10 @@ public class PlayerAnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 currentPosition = transform.position;
-        currentPosition.y= animationCurve.Evaluate(curveTime);
+         currentPosition = transform.position;
+        currentPosition.z+=playerSpeed+Time.deltaTime;
+        curveTime+=Time.deltaTime;
+        currentPosition.y= animationCurve.Evaluate((Mathf.Clamp(curveTime,0f,10f)));
         transform.position= currentPosition;
     }
 }

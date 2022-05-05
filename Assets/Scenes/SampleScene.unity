@@ -257,6 +257,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  playerSpeed: 6
+  currentPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +352,7 @@ PrefabInstance:
     - target: {fileID: -5716681864270162303, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_Animation
       value: 
-      objectReference: {fileID: 7400000, guid: 3154f2f09e952ef4192f28f7e93e1bba, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: -5716681864270162303, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_Animations.Array.size
       value: 1
