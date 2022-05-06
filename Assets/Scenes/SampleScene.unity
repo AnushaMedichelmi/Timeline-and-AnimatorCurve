@@ -495,6 +495,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 7120323376122369231, guid: 8907eb5a59cabe34a911c72240654798, type: 2}
     value: {fileID: 1463582176478086}
+  - key: {fileID: -1849716165466731125, guid: 8907eb5a59cabe34a911c72240654798, type: 2}
+    value: {fileID: 1705378465680340}
+  - key: {fileID: 5486074836699707729, guid: 8907eb5a59cabe34a911c72240654798, type: 2}
+    value: {fileID: 1842522647845778}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1126461090680221
@@ -690,6 +694,7 @@ GameObject:
   - component: {fileID: 4906574962435703}
   - component: {fileID: 198617214837148043}
   - component: {fileID: 199606782720133303}
+  - component: {fileID: 1705378465680340}
   m_Layer: 0
   m_Name: WallFlames
   m_TagString: Untagged
@@ -697,6 +702,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1705378465680340
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705378465680339}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1774027567135079
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,6 +751,7 @@ GameObject:
   - component: {fileID: 4149033609528437}
   - component: {fileID: 198411206220939581}
   - component: {fileID: 199600100770189319}
+  - component: {fileID: 1842522647845778}
   m_Layer: 0
   m_Name: DrippingFlames
   m_TagString: Untagged
@@ -734,6 +759,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1842522647845778
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842522647845777}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1867155799488655
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +865,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842522647845777}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -7.83, y: 3.81, z: 11.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -923,7 +967,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463582176478085}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -3.96, y: 0, z: 8.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
