@@ -32,5 +32,10 @@ public class PlayerAnimationController : MonoBehaviour
         currentTransform.position += playerSpeed * currentTransform.forward * Time.deltaTime;
         float valueY= animationCurve.Evaluate(Mathf.PingPong(Time.time,1f));
         currentTransform.position = new Vector3(currentTransform.position.x, valueY, currentTransform.position.z);
+
+        //character track
+        //audio track
+        //particleeffect track
+        //cinemachine track
     }
 }
